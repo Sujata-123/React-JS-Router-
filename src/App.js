@@ -30,7 +30,7 @@ const App=()=> {
 // </button>
 // </div>
 
-// <div>
+<div>
        <button onClick={() => history.push("/about")}> About Us </button>
       <button onClick={() => history.push("/contact")}> Contact Us </button>
       <button onClick={() => history.push("/")}> Home Page </button>
