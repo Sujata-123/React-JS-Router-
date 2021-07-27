@@ -18,19 +18,19 @@ const App=()=> {
        
        
       {/* </button> */}
-      <div>
-<button>
- <Link to="/about"> About Us </Link>
-</button>
-<button>
-  <Link to="/contact"> Contact Us </Link>
-</button>
-<button>
-   <Link to="/"> Home Page </Link>
-</button>
-</div>
+//       <div>
+// <button>
+//  <Link to="/about"> About Us </Link>
+// </button>
+// <button>
+//   <Link to="/contact"> Contact Us </Link>
+// </button>
+// <button>
+//    <Link to="/"> Home Page </Link>
+// </button>
+// </div>
 
-<div>
+// <div>
        <button onClick={() => history.push("/about")}> About Us </button>
       <button onClick={() => history.push("/contact")}> Contact Us </button>
       <button onClick={() => history.push("/")}> Home Page </button>
